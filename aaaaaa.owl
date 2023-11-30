@@ -1,0 +1,2958 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2023/10/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2023/10/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2023/10/untitled-ontology-2"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#автор"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#актер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#дистрибьютор"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#издательство"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#кинокомпания"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#книга"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#компания_разработчиков"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#копмьютерная_игра"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#монтажер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#оператор"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#продюсер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#режиссер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#сценарист"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#фильм"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#художник_постановщик"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#играть"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#издал"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#написал_сценарий"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#написание_книги"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#произвела_фильм"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#разработал"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#распространил"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#смонтировал"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#снял"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#создал_визуал"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#спродюсировал"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#срежессировал"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#сыграл"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#читать"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#адрес"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#бюджет"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#год"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_выхода"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_дистриб"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_основания"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_основания_кино"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_основания_книги"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#длительность"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#жанр"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ключевая_фигура"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#язык"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Argonaut_Games"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Columbia_Pictures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Griptonite_Games"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harper_Entertaiment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heyday_Films"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Insomniac_Games"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KnowWonder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marvel_Comics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slightly_Mad_Studios"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sony_Pictures_Releasing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spider-Man"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ubisoft_Montreal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Universal_Pictures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Walt_Disney_Studios_Motion_Pictures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Warner_Bros"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Warthog_Games"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disney_press"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dune_entertainment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ingenious_film_partners"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lightstorm_entertainment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Удивительный_Человек-паук"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#аватар"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#акелла"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#алан_рикман"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#блумсбери"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#боб_муравски"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#брайан_моррис"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#вальдемар_калиновски"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#вин_дизель"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_книга"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#гор_вербински"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#гэри_скотт_томпсон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#даг_клейборн"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#дариуш_вольский"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джеймс_кэмерон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джеймс_франко"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джерри_брукхаймер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джефри_раш"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джоан_роулинг"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джованни_рибизи"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джон_ландау"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джон_нолл"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джон_рефуа"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джон_сил"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джонни_депп"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джордана_брюстер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#джоэл_дэвид_мур"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#дирк_мэтисон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#дон_берджесс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#дэвид_кепп"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#дэвид_хейман"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#дэвид_эйер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#дэниел_рэдклифф"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#зои_салдана"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#иностранка"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#иэн_харт"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#йен_брайс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#кира_найтли"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#клифф_робертсон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#крейтон_беллингер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#крис_коламбус"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#кристен_данст"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#лора_зискин"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#мария_вильгельм"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#мартин_лэйн"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#мауро_фиоре"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#мишель_родригес"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#мэгги_смит"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#нил_мориц"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#нил_спайсэк"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#орландо_блум"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#пираты_карибского_моря"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#питер_хонесс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#пол_уокер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#рик_картер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ричард_фрэнсис-брюс"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ричард_харрис"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#роб_коэн"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#робби_колтрейн"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#роберт_стромберг"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#розмари_харрис"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#руперт_гринт"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#сазерленд"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#сигурни_уивер"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#стив_дитко"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#стив_кловис"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#стивен_лэнг"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#стивен_ривкин"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#стэн_ли"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#стюарт_битти"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#стюарт_крэйг"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#сэм_рейми"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#сэм_уортингтон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#тед_эллиот"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#терри_росио"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#тоби_магуайр"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#уиллем_дефо"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#форсаж"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#форсаж_книга"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#харрисон_колин"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#человек-паук"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#эмма_уотсон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#эрик_бергкуист"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#эриксон_кор"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1492_Pictures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#20th_century_fox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fast_&amp;_Furious_Crossroads"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James_Cameron’s_Avatar:_The_Game"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Приключения_Джека_Воробья"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#компания_разработчиков"/>
+        <NamedIndividual IRI="#Argonaut_Games"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#кинокомпания"/>
+        <NamedIndividual IRI="#Columbia_Pictures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компания_разработчиков"/>
+        <NamedIndividual IRI="#Griptonite_Games"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#издательство"/>
+        <NamedIndividual IRI="#Harper_Entertaiment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#кинокомпания"/>
+        <NamedIndividual IRI="#Heyday_Films"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компания_разработчиков"/>
+        <NamedIndividual IRI="#Insomniac_Games"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компания_разработчиков"/>
+        <NamedIndividual IRI="#KnowWonder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#издательство"/>
+        <NamedIndividual IRI="#Marvel_Comics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компания_разработчиков"/>
+        <NamedIndividual IRI="#Slightly_Mad_Studios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#дистрибьютор"/>
+        <NamedIndividual IRI="#Sony_Pictures_Releasing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#копмьютерная_игра"/>
+        <NamedIndividual IRI="#Spider-Man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компания_разработчиков"/>
+        <NamedIndividual IRI="#Ubisoft_Montreal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#дистрибьютор"/>
+        <NamedIndividual IRI="#Universal_Pictures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#дистрибьютор"/>
+        <NamedIndividual IRI="#Walt_Disney_Studios_Motion_Pictures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#дистрибьютор"/>
+        <NamedIndividual IRI="#Warner_Bros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компания_разработчиков"/>
+        <NamedIndividual IRI="#Warthog_Games"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#издательство"/>
+        <NamedIndividual IRI="#disney_press"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#кинокомпания"/>
+        <NamedIndividual IRI="#dune_entertainment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#кинокомпания"/>
+        <NamedIndividual IRI="#ingenious_film_partners"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#кинокомпания"/>
+        <NamedIndividual IRI="#lightstorm_entertainment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#книга"/>
+        <NamedIndividual IRI="#Удивительный_Человек-паук"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#фильм"/>
+        <NamedIndividual IRI="#аватар"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#компания_разработчиков"/>
+        <NamedIndividual IRI="#акелла"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#алан_рикман"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#издательство"/>
+        <NamedIndividual IRI="#блумсбери"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#монтажер"/>
+        <NamedIndividual IRI="#боб_муравски"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#художник_постановщик"/>
+        <NamedIndividual IRI="#брайан_моррис"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#художник_постановщик"/>
+        <NamedIndividual IRI="#вальдемар_калиновски"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#вин_дизель"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#фильм"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#копмьютерная_игра"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#книга"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_книга"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#гор_вербински"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#гэри_скотт_томпсон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюсер"/>
+        <NamedIndividual IRI="#даг_клейборн"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#оператор"/>
+        <NamedIndividual IRI="#дариуш_вольский"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#джеймс_кэмерон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#джеймс_франко"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюсер"/>
+        <NamedIndividual IRI="#джерри_брукхаймер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#джефри_раш"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#автор"/>
+        <NamedIndividual IRI="#джоан_роулинг"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#джованни_рибизи"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюсер"/>
+        <NamedIndividual IRI="#джон_ландау"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#монтажер"/>
+        <NamedIndividual IRI="#джон_нолл"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#монтажер"/>
+        <NamedIndividual IRI="#джон_рефуа"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#оператор"/>
+        <NamedIndividual IRI="#джон_сил"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#джонни_депп"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#джордана_брюстер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#джоэл_дэвид_мур"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#автор"/>
+        <NamedIndividual IRI="#дирк_мэтисон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#оператор"/>
+        <NamedIndividual IRI="#дон_берджесс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#дэвид_кепп"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюсер"/>
+        <NamedIndividual IRI="#дэвид_хейман"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#дэвид_эйер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#дэниел_рэдклифф"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#зои_салдана"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#издательство"/>
+        <NamedIndividual IRI="#иностранка"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#иэн_харт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюсер"/>
+        <NamedIndividual IRI="#йен_брайс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#кира_найтли"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#клифф_робертсон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюсер"/>
+        <NamedIndividual IRI="#крейтон_беллингер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#крис_коламбус"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#кристен_данст"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюсер"/>
+        <NamedIndividual IRI="#лора_зискин"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#автор"/>
+        <NamedIndividual IRI="#мария_вильгельм"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#художник_постановщик"/>
+        <NamedIndividual IRI="#мартин_лэйн"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#оператор"/>
+        <NamedIndividual IRI="#мауро_фиоре"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#мишель_родригес"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#мэгги_смит"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#продюсер"/>
+        <NamedIndividual IRI="#нил_мориц"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#художник_постановщик"/>
+        <NamedIndividual IRI="#нил_спайсэк"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#орландо_блум"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#копмьютерная_игра"/>
+        <NamedIndividual IRI="#пираты_карибского_моря"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#монтажер"/>
+        <NamedIndividual IRI="#питер_хонесс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#пол_уокер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#художник_постановщик"/>
+        <NamedIndividual IRI="#рик_картер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#монтажер"/>
+        <NamedIndividual IRI="#ричард_фрэнсис-брюс"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#ричард_харрис"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#роб_коэн"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#робби_колтрейн"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#художник_постановщик"/>
+        <NamedIndividual IRI="#роберт_стромберг"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#розмари_харрис"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#руперт_гринт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#автор"/>
+        <NamedIndividual IRI="#сазерленд"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#сигурни_уивер"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#автор"/>
+        <NamedIndividual IRI="#стив_дитко"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#стив_кловис"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#стивен_лэнг"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#монтажер"/>
+        <NamedIndividual IRI="#стивен_ривкин"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#автор"/>
+        <NamedIndividual IRI="#стэн_ли"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#стюарт_битти"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#художник_постановщик"/>
+        <NamedIndividual IRI="#стюарт_крэйг"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#режиссер"/>
+        <NamedIndividual IRI="#сэм_рейми"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#сэм_уортингтон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#тед_эллиот"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#терри_росио"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#тоби_магуайр"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#уиллем_дефо"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#фильм"/>
+        <NamedIndividual IRI="#форсаж"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#книга"/>
+        <NamedIndividual IRI="#форсаж_книга"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#автор"/>
+        <NamedIndividual IRI="#харрисон_колин"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#фильм"/>
+        <NamedIndividual IRI="#человек-паук"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#актер"/>
+        <NamedIndividual IRI="#эмма_уотсон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#сценарист"/>
+        <NamedIndividual IRI="#эрик_бергкуист"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#оператор"/>
+        <NamedIndividual IRI="#эриксон_кор"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#кинокомпания"/>
+        <NamedIndividual IRI="#1492_Pictures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#кинокомпания"/>
+        <NamedIndividual IRI="#20th_century_fox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#книга"/>
+        <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#копмьютерная_игра"/>
+        <NamedIndividual IRI="#Fast_&amp;_Furious_Crossroads"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#копмьютерная_игра"/>
+        <NamedIndividual IRI="#James_Cameron’s_Avatar:_The_Game"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#книга"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Приключения_Джека_Воробья"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#фильм"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#крис_коламбус"/>
+        <NamedIndividual IRI="#роб_коэн"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#крис_коламбус"/>
+        <NamedIndividual IRI="#сэм_рейми"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#издал"/>
+        <NamedIndividual IRI="#Harper_Entertaiment"/>
+        <NamedIndividual IRI="#Harper_Entertaiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#Harper_Entertaiment"/>
+        <NamedIndividual IRI="#дирк_мэтисон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#Harper_Entertaiment"/>
+        <NamedIndividual IRI="#мария_вильгельм"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#разработал"/>
+        <NamedIndividual IRI="#Spider-Man"/>
+        <NamedIndividual IRI="#Insomniac_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#издал"/>
+        <NamedIndividual IRI="#Удивительный_Человек-паук"/>
+        <NamedIndividual IRI="#Marvel_Comics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#Удивительный_Человек-паук"/>
+        <NamedIndividual IRI="#стив_дитко"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#Удивительный_Человек-паук"/>
+        <NamedIndividual IRI="#стэн_ли"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#играть"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#James_Cameron’s_Avatar:_The_Game"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#джеймс_кэмерон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_фильм"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#dune_entertainment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_фильм"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#ingenious_film_partners"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_фильм"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#lightstorm_entertainment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_фильм"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#20th_century_fox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#распространил"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#20th_century_fox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#смонтировал"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#джон_рефуа"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#смонтировал"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#стивен_ривкин"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#снял"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#мауро_фиоре"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#мартин_лэйн"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#рик_картер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#роберт_стромберг"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюсировал"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#джеймс_кэмерон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюсировал"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#джон_ландау"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#срежессировал"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#джеймс_кэмерон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#джованни_рибизи"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#джоэл_дэвид_мур"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#зои_салдана"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#мишель_родригес"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#сигурни_уивер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#стивен_лэнг"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#сэм_уортингтон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#читать"/>
+        <NamedIndividual IRI="#аватар"/>
+        <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#играть"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#стив_кловис"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_фильм"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#Heyday_Films"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_фильм"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#Warner_Bros"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_фильм"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#1492_Pictures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#распространил"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#Warner_Bros"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#смонтировал"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#ричард_фрэнсис-брюс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#снял"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#джон_сил"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#стюарт_крэйг"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюсировал"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#дэвид_хейман"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#срежессировал"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#крис_коламбус"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#алан_рикман"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#дэниел_рэдклифф"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#иэн_харт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#мэгги_смит"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#ричард_харрис"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#робби_колтрейн"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#руперт_гринт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#эмма_уотсон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#читать"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_книга"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#разработал"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
+        <NamedIndividual IRI="#Argonaut_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#разработал"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
+        <NamedIndividual IRI="#Griptonite_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#разработал"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
+        <NamedIndividual IRI="#Ubisoft_Montreal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#разработал"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
+        <NamedIndividual IRI="#Warthog_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#издал"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_книга"/>
+        <NamedIndividual IRI="#блумсбери"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_книга"/>
+        <NamedIndividual IRI="#джоан_роулинг"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#разработал"/>
+        <NamedIndividual IRI="#пираты_карибского_моря"/>
+        <NamedIndividual IRI="#акелла"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#играть"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#Fast_&amp;_Furious_Crossroads"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#гэри_скотт_томпсон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#дэвид_эйер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#эрик_бергкуист"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_фильм"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#Universal_Pictures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#распространил"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#Universal_Pictures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#смонтировал"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#питер_хонесс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#снял"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#эриксон_кор"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#вальдемар_калиновски"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюсировал"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#даг_клейборн"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюсировал"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#крейтон_беллингер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюсировал"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#нил_мориц"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#срежессировал"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#роб_коэн"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#вин_дизель"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#джордана_брюстер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#мишель_родригес"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#пол_уокер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#читать"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <NamedIndividual IRI="#форсаж_книга"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#издал"/>
+        <NamedIndividual IRI="#форсаж_книга"/>
+        <NamedIndividual IRI="#иностранка"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#форсаж_книга"/>
+        <NamedIndividual IRI="#харрисон_колин"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#харрисон_колин"/>
+        <NamedIndividual IRI="#форсаж_книга"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#играть"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#Spider-Man"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#дэвид_кепп"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_фильм"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#Columbia_Pictures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#распространил"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#Sony_Pictures_Releasing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#смонтировал"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#боб_муравски"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#снял"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#дон_берджесс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#нил_спайсэк"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюсировал"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#йен_брайс"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюсировал"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#лора_зискин"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#срежессировал"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#сэм_рейми"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#джеймс_франко"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#клифф_робертсон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#кристен_данст"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#розмари_харрис"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#тоби_магуайр"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#уиллем_дефо"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#читать"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <NamedIndividual IRI="#Удивительный_Человек-паук"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#издал"/>
+        <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
+        <NamedIndividual IRI="#Harper_Entertaiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
+        <NamedIndividual IRI="#дирк_мэтисон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
+        <NamedIndividual IRI="#мария_вильгельм"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#разработал"/>
+        <NamedIndividual IRI="#Fast_&amp;_Furious_Crossroads"/>
+        <NamedIndividual IRI="#Slightly_Mad_Studios"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#разработал"/>
+        <NamedIndividual IRI="#James_Cameron’s_Avatar:_The_Game"/>
+        <NamedIndividual IRI="#Ubisoft_Montreal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#издал"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Приключения_Джека_Воробья"/>
+        <NamedIndividual IRI="#disney_press"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написание_книги"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Приключения_Джека_Воробья"/>
+        <NamedIndividual IRI="#сазерленд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#играть"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#пираты_карибского_моря"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#стюарт_битти"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#тед_эллиот"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#терри_росио"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#произвела_фильм"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#Walt_Disney_Studios_Motion_Pictures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#распространил"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#Walt_Disney_Studios_Motion_Pictures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#смонтировал"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#джон_нолл"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#снял"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#дариуш_вольский"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#брайан_моррис"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#спродюсировал"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#джерри_брукхаймер"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#срежессировал"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#гор_вербински"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#джефри_раш"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#джонни_депп"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#кира_найтли"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#сыграл"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#орландо_блум"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#читать"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Приключения_Джека_Воробья"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания"/>
+        <NamedIndividual IRI="#Argonaut_Games"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1982-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Argonaut_Games"/>
+        <Literal>джереми сан</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_кино"/>
+        <NamedIndividual IRI="#Columbia_Pictures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1924-01-10T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Columbia_Pictures"/>
+        <Literal>гарри кон</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Columbia_Pictures"/>
+        <Literal>джен кон</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Columbia_Pictures"/>
+        <Literal>джо брендт</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Columbia_Pictures"/>
+        <Literal>майкл маршалл</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания"/>
+        <NamedIndividual IRI="#Griptonite_Games"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1994-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Griptonite_Games"/>
+        <Literal>стив эттингер</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#адрес"/>
+        <NamedIndividual IRI="#Harper_Entertaiment"/>
+        <Literal>Нью-Йорк</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_книги"/>
+        <NamedIndividual IRI="#Harper_Entertaiment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1985-03-06T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_кино"/>
+        <NamedIndividual IRI="#Heyday_Films"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1997-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Heyday_Films"/>
+        <Literal>Великобритания</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Heyday_Films"/>
+        <Literal>дэвид хейман</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания"/>
+        <NamedIndividual IRI="#Insomniac_Games"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1994-02-28T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Insomniac_Games"/>
+        <Literal>тед прайс</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания"/>
+        <NamedIndividual IRI="#KnowWonder"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1996-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#адрес"/>
+        <NamedIndividual IRI="#Marvel_Comics"/>
+        <Literal>Нью-Йорк</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_книги"/>
+        <NamedIndividual IRI="#Marvel_Comics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1939-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания"/>
+        <NamedIndividual IRI="#Slightly_Mad_Studios"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Slightly_Mad_Studios"/>
+        <Literal>ян белл</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_дистриб"/>
+        <NamedIndividual IRI="#Sony_Pictures_Releasing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1994-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Sony_Pictures_Releasing"/>
+        <Literal>джош гринштейн</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Sony_Pictures_Releasing"/>
+        <Literal>сэнфорд панич</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Sony_Pictures_Releasing"/>
+        <Literal>том ротман</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода"/>
+        <NamedIndividual IRI="#Spider-Man"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#Spider-Man"/>
+        <Literal>приключенческий боевик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания"/>
+        <NamedIndividual IRI="#Ubisoft_Montreal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1997-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Ubisoft_Montreal"/>
+        <Literal>кристоф деренн</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Ubisoft_Montreal"/>
+        <Literal>матье ферланд</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_дистриб"/>
+        <NamedIndividual IRI="#Universal_Pictures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1912-06-08T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Universal_Pictures"/>
+        <Literal>дэвид горсли</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Universal_Pictures"/>
+        <Literal>карл лемме</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Universal_Pictures"/>
+        <Literal>пэт пауэрс</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Universal_Pictures"/>
+        <Literal>чарльз бауман</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_дистриб"/>
+        <NamedIndividual IRI="#Walt_Disney_Studios_Motion_Pictures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1953-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Walt_Disney_Studios_Motion_Pictures"/>
+        <Literal>джастин коннолли</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_дистриб"/>
+        <NamedIndividual IRI="#Warner_Bros"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1923-04-04T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Warner_Bros"/>
+        <Literal>альберт уорнер</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Warner_Bros"/>
+        <Literal>гарри уорнер</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Warner_Bros"/>
+        <Literal>джек уорнер</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#Warner_Bros"/>
+        <Literal>сэм уорнер</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания"/>
+        <NamedIndividual IRI="#Warthog_Games"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1997-04-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#адрес"/>
+        <NamedIndividual IRI="#disney_press"/>
+        <Literal>Burbank</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_книги"/>
+        <NamedIndividual IRI="#disney_press"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1991-05-23T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#disney_press"/>
+        <Literal>майкл линтон</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_кино"/>
+        <NamedIndividual IRI="#dune_entertainment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#dune_entertainment"/>
+        <Literal>брет ратнер</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#dune_entertainment"/>
+        <Literal>джеймс пэкер</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_кино"/>
+        <NamedIndividual IRI="#ingenious_film_partners"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1998-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#ingenious_film_partners"/>
+        <Literal>патрик маккенна</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_кино"/>
+        <NamedIndividual IRI="#lightstorm_entertainment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#lightstorm_entertainment"/>
+        <Literal>джеймс кэмерон</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#lightstorm_entertainment"/>
+        <Literal>ларри касанофф</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода"/>
+        <NamedIndividual IRI="#Удивительный_Человек-паук"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1963-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#Удивительный_Человек-паук"/>
+        <Literal>комикс</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#бюджет"/>
+        <NamedIndividual IRI="#аватар"/>
+        <Literal>$237млн</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#год"/>
+        <NamedIndividual IRI="#аватар"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#длительность"/>
+        <NamedIndividual IRI="#аватар"/>
+        <Literal>162 мин</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#аватар"/>
+        <Literal>боевик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#аватар"/>
+        <Literal>драма</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#аватар"/>
+        <Literal>научная фантастика</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#аватар"/>
+        <Literal>приключения</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#аватар"/>
+        <Literal>эпический фильм</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#язык"/>
+        <NamedIndividual IRI="#аватар"/>
+        <Literal>английский</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#язык"/>
+        <NamedIndividual IRI="#аватар"/>
+        <Literal>на&apos;ви</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания"/>
+        <NamedIndividual IRI="#акелла"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1993-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#акелла"/>
+        <Literal>владимир кудр</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#акелла"/>
+        <Literal>дмитрий архипов</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#алан_рикман"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1946-02-21T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти"/>
+        <NamedIndividual IRI="#алан_рикман"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-14T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#адрес"/>
+        <NamedIndividual IRI="#блумсбери"/>
+        <Literal>Лондон</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_книги"/>
+        <NamedIndividual IRI="#блумсбери"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1986-09-27T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#боб_муравски"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1964-06-14T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#брайан_моррис"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1939-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#вин_дизель"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1967-07-18T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#бюджет"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <Literal>$125 млн</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#год"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#длительность"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <Literal>152 мин</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <Literal>приключения</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <Literal>семейный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <Literal>фэнтези</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#язык"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
+        <Literal>английский</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2001-11-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
+        <Literal>аркада</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
+        <Literal>квест</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
+        <Literal>ролевая игра</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_книга"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1997-06-26T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#гарри_поттер_и_философский_камень_книга"/>
+        <Literal>фэнтези</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#гор_вербински"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1964-03-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#гэри_скотт_томпсон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1959-10-07T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#даг_клейборн"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1947-01-19T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#дариуш_вольский"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1956-05-07T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#джеймс_кэмерон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1954-08-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#джеймс_франко"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1978-04-19T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#джерри_брукхаймер"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1943-09-21T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#джефри_раш"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1951-07-06T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#джоан_роулинг"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1965-07-31T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#джованни_рибизи"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1974-12-17T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#джон_ландау"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1960-07-23T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#джон_нолл"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1962-10-06T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#джон_рефуа"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1960-08-29T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти"/>
+        <NamedIndividual IRI="#джон_рефуа"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-14T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#джон_сил"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1942-11-05T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#джонни_депп"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1963-06-09T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#джордана_брюстер"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1980-04-26T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#джоэл_дэвид_мур"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1977-09-25T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#дирк_мэтисон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1959-06-05T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#дон_берджесс"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1956-05-28T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#дэвид_кепп"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1963-06-09T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#дэвид_хейман"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1961-07-26T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#дэвид_эйер"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1969-01-18T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#дэниел_рэдклифф"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1989-07-23T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#зои_салдана"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1978-06-19T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#адрес"/>
+        <NamedIndividual IRI="#иностранка"/>
+        <Literal>Москва</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_книги"/>
+        <NamedIndividual IRI="#иностранка"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2000-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#иностранка"/>
+        <Literal>виктория краснощенкова</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#иэн_харт"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1964-11-08T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#йен_брайс"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1956-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#кира_найтли"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1985-03-26T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#клифф_робертсон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1923-09-09T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти"/>
+        <NamedIndividual IRI="#клифф_робертсон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-10T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#крейтон_беллингер"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1973-08-08T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#крис_коламбус"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1958-09-10T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#кристен_данст"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1982-04-30T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#лора_зискин"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1950-03-03T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти"/>
+        <NamedIndividual IRI="#лора_зискин"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#мария_вильгельм"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1942-12-11T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#мартин_лэйн"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1969-05-17T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#мауро_фиоре"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1964-11-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#мишель_родригес"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1978-07-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#мэгги_смит"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1934-12-28T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#нил_мориц"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1959-06-06T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#нил_спайсэк"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1956-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#орландо_блум"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1977-01-13T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода"/>
+        <NamedIndividual IRI="#пираты_карибского_моря"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2003-06-30T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#пираты_карибского_моря"/>
+        <Literal>открытый мир</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#пираты_карибского_моря"/>
+        <Literal>ролевая игра</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#питер_хонесс"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1946-08-08T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#пол_уокер"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1973-09-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти"/>
+        <NamedIndividual IRI="#пол_уокер"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-30T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#рик_картер"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1950-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#ричард_фрэнсис-брюс"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1948-12-10T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#ричард_харрис"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1930-10-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти"/>
+        <NamedIndividual IRI="#ричард_харрис"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2002-10-25T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#роб_коэн"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1949-03-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#робби_колтрейн"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1950-03-30T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти"/>
+        <NamedIndividual IRI="#робби_колтрейн"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-14T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#роберт_стромберг"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1969-12-31T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#розмари_харрис"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1927-09-19T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#руперт_гринт"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1988-08-24T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#сазерленд"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1978-07-31T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#сигурни_уивер"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1949-10-08T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#стив_дитко"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1027-12-02T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти"/>
+        <NamedIndividual IRI="#стив_дитко"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-29T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#стив_кловис"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1960-03-18T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#стивен_лэнг"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1952-07-11T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#стивен_ривкин"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1955-05-05T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#стэн_ли"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1922-12-28T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_смерти"/>
+        <NamedIndividual IRI="#стэн_ли"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#стюарт_битти"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1972-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#стюарт_крэйг"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1942-04-14T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#сэм_рейми"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1956-10-23T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#сэм_уортингтон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1967-08-02T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#тед_эллиот"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1961-07-04T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#терри_росио"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1960-07-02T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#тоби_магуайр"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1975-06-27T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#уиллем_дефо"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1955-07-22T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#бюджет"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <Literal>$38 млн</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#год"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#длительность"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <Literal>106 мин</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <Literal>боевик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#язык"/>
+        <NamedIndividual IRI="#форсаж"/>
+        <Literal>английский</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода"/>
+        <NamedIndividual IRI="#форсаж_книга"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2007-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#форсаж_книга"/>
+        <Literal>современная зарубежная проза</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#харрисон_колин"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1960-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#бюджет"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <Literal>$139 млн</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#год"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#длительность"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <Literal>121 мин</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <Literal>боевик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <Literal>драма</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <Literal>научная фантастика</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <Literal>супергероика</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#язык"/>
+        <NamedIndividual IRI="#человек-паук"/>
+        <Literal>английский</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#эмма_уотсон"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1990-04-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#эрик_бергкуист"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1970-04-17T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_рождения"/>
+        <NamedIndividual IRI="#эриксон_кор"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1961-07-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_кино"/>
+        <NamedIndividual IRI="#1492_Pictures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1995-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#1492_Pictures"/>
+        <Literal>крис коламбус</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_основания_кино"/>
+        <NamedIndividual IRI="#20th_century_fox"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1935-05-31T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#20th_century_fox"/>
+        <Literal>джозеф шенк</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#20th_century_fox"/>
+        <Literal>дэррил занук</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <NamedIndividual IRI="#20th_century_fox"/>
+        <Literal>уильям фокс</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода"/>
+        <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2009-11-24T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
+        <Literal>артбук</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
+        <Literal>вселенные</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
+        <Literal>игровые миры</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода"/>
+        <NamedIndividual IRI="#Fast_&amp;_Furious_Crossroads"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-07T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#Fast_&amp;_Furious_Crossroads"/>
+        <Literal>гонки</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода"/>
+        <NamedIndividual IRI="#James_Cameron’s_Avatar:_The_Game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#James_Cameron’s_Avatar:_The_Game"/>
+        <Literal>шутер от третьего лица</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#дата_выхода"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Приключения_Джека_Воробья"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2006-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Приключения_Джека_Воробья"/>
+        <Literal>роман для детей</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#бюджет"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <Literal>$140 млн</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#год"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#длительность"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <Literal>143 мин</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <Literal>боевик</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <Literal>комедия</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <Literal>приключения</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#жанр"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <Literal>фэнтези</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#язык"/>
+        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
+        <Literal>английский</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#играть"/>
+        <Class IRI="#фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#издал"/>
+        <Class IRI="#книга"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <Class IRI="#фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#написание_книги"/>
+        <Class IRI="#книга"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#произвела_фильм"/>
+        <Class IRI="#фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#разработал"/>
+        <Class IRI="#копмьютерная_игра"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#распространил"/>
+        <Class IRI="#фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#смонтировал"/>
+        <Class IRI="#фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#снял"/>
+        <Class IRI="#фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <Class IRI="#фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#спродюсировал"/>
+        <Class IRI="#фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#срежессировал"/>
+        <Class IRI="#фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#сыграл"/>
+        <Class IRI="#фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#читать"/>
+        <Class IRI="#фильм"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#играть"/>
+        <Class IRI="#копмьютерная_игра"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#издал"/>
+        <Class IRI="#издательство"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#написал_сценарий"/>
+        <Class IRI="#сценарист"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#написание_книги"/>
+        <Class IRI="#автор"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#произвела_фильм"/>
+        <Class IRI="#кинокомпания"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#разработал"/>
+        <Class IRI="#компания_разработчиков"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#распространил"/>
+        <Class IRI="#дистрибьютор"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#смонтировал"/>
+        <Class IRI="#монтажер"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#снял"/>
+        <Class IRI="#режиссер"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#создал_визуал"/>
+        <Class IRI="#художник_постановщик"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#спродюсировал"/>
+        <Class IRI="#продюсер"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#срежессировал"/>
+        <Class IRI="#режиссер"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#сыграл"/>
+        <Class IRI="#актер"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#читать"/>
+        <Class IRI="#книга"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#год"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#адрес"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#бюджет"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#год"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#дата_выхода"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#дата_основания"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#дата_рождения"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#дата_смерти"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#длительность"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#адрес"/>
+        <Class IRI="#издательство"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#бюджет"/>
+        <Class IRI="#фильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#год"/>
+        <Class IRI="#фильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_выхода"/>
+        <Class IRI="#книга"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_выхода"/>
+        <Class IRI="#копмьютерная_игра"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_дистриб"/>
+        <Class IRI="#дистрибьютор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания"/>
+        <Class IRI="#дистрибьютор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания"/>
+        <Class IRI="#издательство"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания"/>
+        <Class IRI="#кинокомпания"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания"/>
+        <Class IRI="#компания_разработчиков"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания"/>
+        <Class IRI="#фильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания_кино"/>
+        <Class IRI="#кинокомпания"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания_книги"/>
+        <Class IRI="#издательство"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения"/>
+        <Class IRI="#автор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения"/>
+        <Class IRI="#актер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения"/>
+        <Class IRI="#монтажер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения"/>
+        <Class IRI="#оператор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения"/>
+        <Class IRI="#продюсер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения"/>
+        <Class IRI="#режиссер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения"/>
+        <Class IRI="#сценарист"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения"/>
+        <Class IRI="#художник_постановщик"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти"/>
+        <Class IRI="#автор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти"/>
+        <Class IRI="#актер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти"/>
+        <Class IRI="#монтажер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти"/>
+        <Class IRI="#оператор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти"/>
+        <Class IRI="#продюсер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти"/>
+        <Class IRI="#режиссер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти"/>
+        <Class IRI="#сценарист"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти"/>
+        <Class IRI="#художник_постановщик"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#длительность"/>
+        <Class IRI="#фильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#жанр"/>
+        <Class IRI="#книга"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#жанр"/>
+        <Class IRI="#копмьютерная_игра"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#жанр"/>
+        <Class IRI="#фильм"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <Class IRI="#кинокомпания"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <Class IRI="#компания_разработчиков"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#язык"/>
+        <Class IRI="#фильм"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#адрес"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#бюджет"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#год"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_выхода"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_дистриб"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_основания"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_основания_кино"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_основания_книги"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#длительность"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#жанр"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ключевая_фигура"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#язык"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DisjointDataProperties>
+        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_смерти"/>
+    </DisjointDataProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
