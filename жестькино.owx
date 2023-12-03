@@ -109,28 +109,91 @@
         <DataProperty IRI="#год"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_книги"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_выхода_копмьютерной_игры"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#дата_основания"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_основания_дистрибьютора"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#дата_смерти"/>
+        <DataProperty IRI="#дата_основания_издательства"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_основания_кинокомпании"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_автора"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_актера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_оператора"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_продюссер"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_актера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_монтажера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_оператора"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_продюсера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_режиссера"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_сценариста"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_смерти_художника_постановщика"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#дата_сметри_автора"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#длительность"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_игры"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#жанр_книги"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#страна"/>
+        <DataProperty IRI="#жанр_фильма"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#язык"/>
@@ -217,9 +280,6 @@
         <NamedIndividual IRI="#брайан_моррис"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#вальдемар_калиновски"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#вин_дизель"/>
     </Declaration>
     <Declaration>
@@ -583,10 +643,6 @@
         <NamedIndividual IRI="#брайан_моррис"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#художник_постановщик"/>
-        <NamedIndividual IRI="#вальдемар_калиновски"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#актер"/>
         <NamedIndividual IRI="#вин_дизель"/>
     </ClassAssertion>
@@ -927,21 +983,6 @@
         <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#издал"/>
-        <NamedIndividual IRI="#Harper_Entertaiment"/>
-        <NamedIndividual IRI="#Harper_Entertaiment"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#написание_книги"/>
-        <NamedIndividual IRI="#Harper_Entertaiment"/>
-        <NamedIndividual IRI="#дирк_мэтисон"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#написание_книги"/>
-        <NamedIndividual IRI="#Harper_Entertaiment"/>
-        <NamedIndividual IRI="#мария_вильгельм"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#разработал"/>
         <NamedIndividual IRI="#Spider-Man"/>
         <NamedIndividual IRI="#Insomniac_Games"/>
@@ -1257,11 +1298,6 @@
         <NamedIndividual IRI="#эриксон_кор"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#создал_визуал"/>
-        <NamedIndividual IRI="#форсаж"/>
-        <NamedIndividual IRI="#вальдемар_калиновски"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#спродюсировал"/>
         <NamedIndividual IRI="#форсаж"/>
         <NamedIndividual IRI="#даг_клейборн"/>
@@ -1315,11 +1351,6 @@
         <ObjectProperty IRI="#написание_книги"/>
         <NamedIndividual IRI="#форсаж_книга"/>
         <NamedIndividual IRI="#харрисон_колин"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#написание_книги"/>
-        <NamedIndividual IRI="#харрисон_колин"/>
-        <NamedIndividual IRI="#форсаж_книга"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#играть"/>
@@ -1522,119 +1553,89 @@
         <NamedIndividual IRI="#Пираты_Карибского_моря:_Приключения_Джека_Воробья"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
         <NamedIndividual IRI="#Argonaut_Games"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1982-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
         <NamedIndividual IRI="#Argonaut_Games"/>
         <Literal>джереми сан</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Argonaut_Games"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_кинокомпании"/>
         <NamedIndividual IRI="#Columbia_Pictures"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1924-01-10T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#Columbia_Pictures"/>
         <Literal>гарри кон</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#Columbia_Pictures"/>
         <Literal>джен кон</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#Columbia_Pictures"/>
         <Literal>джо брендт</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#Columbia_Pictures"/>
         <Literal>майкл маршалл</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Columbia_Pictures"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
         <NamedIndividual IRI="#Griptonite_Games"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1994-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
         <NamedIndividual IRI="#Griptonite_Games"/>
         <Literal>стив эттингер</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Griptonite_Games"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#адрес"/>
         <NamedIndividual IRI="#Harper_Entertaiment"/>
         <Literal>Нью-Йорк</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_дистрибьютора"/>
         <NamedIndividual IRI="#Harper_Entertaiment"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1985-03-06T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Harper_Entertaiment"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_кинокомпании"/>
         <NamedIndividual IRI="#Heyday_Films"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1997-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#Heyday_Films"/>
         <Literal>Великобритания</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#Heyday_Films"/>
         <Literal>дэвид хейман</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
         <NamedIndividual IRI="#Insomniac_Games"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1994-02-28T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
         <NamedIndividual IRI="#Insomniac_Games"/>
         <Literal>тед прайс</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Insomniac_Games"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
         <NamedIndividual IRI="#KnowWonder"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1996-01-01T00:00:00</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#KnowWonder"/>
-        <Literal>США</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#адрес"/>
@@ -1642,169 +1643,69 @@
         <Literal>Нью-Йорк</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_дистрибьютора"/>
         <NamedIndividual IRI="#Marvel_Comics"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1939-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Marvel_Comics"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
         <NamedIndividual IRI="#Slightly_Mad_Studios"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
         <NamedIndividual IRI="#Slightly_Mad_Studios"/>
         <Literal>ян белл</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Slightly_Mad_Studios"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_дистрибьютора"/>
         <NamedIndividual IRI="#Sony_Pictures_Releasing"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1994-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#Sony_Pictures_Releasing"/>
-        <Literal>джош гринштейн</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#Sony_Pictures_Releasing"/>
-        <Literal>сэнфорд панич</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#Sony_Pictures_Releasing"/>
-        <Literal>том ротман</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Sony_Pictures_Releasing"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_копмьютерной_игры"/>
         <NamedIndividual IRI="#Spider-Man"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_игры"/>
         <NamedIndividual IRI="#Spider-Man"/>
         <Literal>приключенческий боевик</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
         <NamedIndividual IRI="#Ubisoft_Montreal"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1997-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
         <NamedIndividual IRI="#Ubisoft_Montreal"/>
         <Literal>кристоф деренн</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
         <NamedIndividual IRI="#Ubisoft_Montreal"/>
         <Literal>матье ферланд</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Ubisoft_Montreal"/>
-        <Literal>Канада</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_дистрибьютора"/>
         <NamedIndividual IRI="#Universal_Pictures"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1912-06-08T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#Universal_Pictures"/>
-        <Literal>дэвид горсли</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#Universal_Pictures"/>
-        <Literal>карл лемме</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#Universal_Pictures"/>
-        <Literal>пэт пауэрс</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#Universal_Pictures"/>
-        <Literal>чарльз бауман</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Universal_Pictures"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_дистрибьютора"/>
         <NamedIndividual IRI="#Walt_Disney_Studios_Motion_Pictures"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1953-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#Walt_Disney_Studios_Motion_Pictures"/>
-        <Literal>джастин коннолли</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Walt_Disney_Studios_Motion_Pictures"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_дистрибьютора"/>
         <NamedIndividual IRI="#Warner_Bros"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1923-04-04T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#Warner_Bros"/>
-        <Literal>альберт уорнер</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#Warner_Bros"/>
-        <Literal>гарри уорнер</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#Warner_Bros"/>
-        <Literal>джек уорнер</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#Warner_Bros"/>
-        <Literal>сэм уорнер</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Warner_Bros"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
         <NamedIndividual IRI="#Warthog_Games"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1997-04-01T00:00:00</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Warthog_Games"/>
-        <Literal>Великобритания</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#адрес"/>
@@ -1812,82 +1713,57 @@
         <Literal>Burbank</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_дистрибьютора"/>
         <NamedIndividual IRI="#disney_press"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1991-05-23T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#disney_press"/>
-        <Literal>майкл линтон</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#disney_press"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_кинокомпании"/>
         <NamedIndividual IRI="#dune_entertainment"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#dune_entertainment"/>
         <Literal>брет ратнер</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#dune_entertainment"/>
         <Literal>джеймс пэкер</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#dune_entertainment"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_кинокомпании"/>
         <NamedIndividual IRI="#ingenious_film_partners"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1998-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#ingenious_film_partners"/>
         <Literal>патрик маккенна</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#ingenious_film_partners"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_кинокомпании"/>
         <NamedIndividual IRI="#lightstorm_entertainment"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#lightstorm_entertainment"/>
         <Literal>джеймс кэмерон</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#lightstorm_entertainment"/>
         <Literal>ларри касанофф</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#lightstorm_entertainment"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_книги"/>
         <NamedIndividual IRI="#Удивительный_Человек-паук"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1963-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_книги"/>
         <NamedIndividual IRI="#Удивительный_Человек-паук"/>
         <Literal>комикс</Literal>
     </DataPropertyAssertion>
@@ -1907,39 +1783,29 @@
         <Literal>162 мин</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#аватар"/>
         <Literal>боевик</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#аватар"/>
         <Literal>драма</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#аватар"/>
         <Literal>научная фантастика</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#аватар"/>
         <Literal>приключения</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#аватар"/>
         <Literal>эпический фильм</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#аватар"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#аватар"/>
-        <Literal>США</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#язык"/>
@@ -1952,39 +1818,29 @@
         <Literal>на&apos;ви</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
         <NamedIndividual IRI="#акелла"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1993-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
         <NamedIndividual IRI="#акелла"/>
         <Literal>владимир кудр</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
         <NamedIndividual IRI="#акелла"/>
         <Literal>дмитрий архипов</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#акелла"/>
-        <Literal>Россия</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#алан_рикман"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1946-02-21T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_смерти"/>
+        <DataProperty IRI="#дата_смерти_актера"/>
         <NamedIndividual IRI="#алан_рикман"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-14T00:00:00</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#алан_рикман"/>
-        <Literal>Великобритания</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#адрес"/>
@@ -1992,49 +1848,24 @@
         <Literal>Лондон</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_дистрибьютора"/>
         <NamedIndividual IRI="#блумсбери"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1986-09-27T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#блумсбери"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
         <NamedIndividual IRI="#боб_муравски"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1964-06-14T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#боб_муравски"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
         <NamedIndividual IRI="#брайан_моррис"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1939-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#брайан_моррис"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#вальдемар_калиновски"/>
-        <Literal>Австрия</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#вин_дизель"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1967-07-18T00:00:00</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#вин_дизель"/>
-        <Literal>США</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#бюджет"/>
@@ -2052,29 +1883,19 @@
         <Literal>152 мин</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
         <Literal>приключения</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
         <Literal>семейный</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
         <Literal>фэнтези</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#гарри_поттер_и_философский_камень"/>
-        <Literal>США</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#язык"/>
@@ -2082,279 +1903,159 @@
         <Literal>английский</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_копмьютерной_игры"/>
         <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2001-11-16T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_игры"/>
         <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
         <Literal>аркада</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_игры"/>
         <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
         <Literal>квест</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_игры"/>
         <NamedIndividual IRI="#гарри_поттер_и_философский_камень_игра"/>
         <Literal>ролевая игра</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_книги"/>
         <NamedIndividual IRI="#гарри_поттер_и_философский_камень_книга"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1997-06-26T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_книги"/>
         <NamedIndividual IRI="#гарри_поттер_и_философский_камень_книга"/>
         <Literal>фэнтези</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
         <NamedIndividual IRI="#гор_вербински"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1964-03-16T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#гор_вербински"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
         <NamedIndividual IRI="#гэри_скотт_томпсон"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1959-10-07T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#гэри_скотт_томпсон"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_продюссер"/>
         <NamedIndividual IRI="#даг_клейборн"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1947-01-19T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#даг_клейборн"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_оператора"/>
         <NamedIndividual IRI="#дариуш_вольский"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1956-05-07T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#дариуш_вольский"/>
-        <Literal>Польша</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
         <NamedIndividual IRI="#джеймс_кэмерон"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1954-08-16T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#джеймс_кэмерон"/>
-        <Literal>Канада</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#джеймс_франко"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1978-04-19T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#джеймс_франко"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_продюссер"/>
         <NamedIndividual IRI="#джерри_брукхаймер"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1943-09-21T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#джерри_брукхаймер"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#джефри_раш"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1951-07-06T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#джефри_раш"/>
-        <Literal>Австралия</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_автора"/>
         <NamedIndividual IRI="#джоан_роулинг"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1965-07-31T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#джоан_роулинг"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#джованни_рибизи"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1974-12-17T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#джованни_рибизи"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_продюссер"/>
         <NamedIndividual IRI="#джон_ландау"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1960-07-23T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#джон_ландау"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
         <NamedIndividual IRI="#джон_нолл"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1962-10-06T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#джон_нолл"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
         <NamedIndividual IRI="#джон_рефуа"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1960-08-29T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_смерти"/>
+        <DataProperty IRI="#дата_смерти_монтажера"/>
         <NamedIndividual IRI="#джон_рефуа"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-14T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#джон_рефуа"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_оператора"/>
         <NamedIndividual IRI="#джон_сил"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1942-11-05T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#джон_сил"/>
-        <Literal>Австралия</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#джонни_депп"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1963-06-09T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#джонни_депп"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#джордана_брюстер"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1980-04-26T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#джордана_брюстер"/>
-        <Literal>Панама</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#джоэл_дэвид_мур"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1977-09-25T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#джоэл_дэвид_мур"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_автора"/>
         <NamedIndividual IRI="#дирк_мэтисон"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1959-06-05T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#дирк_мэтисон"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_оператора"/>
         <NamedIndividual IRI="#дон_берджесс"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1956-05-28T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#дон_берджесс"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
         <NamedIndividual IRI="#дэвид_кепп"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1963-06-09T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#дэвид_кепп"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_продюссер"/>
         <NamedIndividual IRI="#дэвид_хейман"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1961-07-26T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#дэвид_хейман"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
         <NamedIndividual IRI="#дэвид_эйер"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1969-01-18T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#дэвид_эйер"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#дэниел_рэдклифф"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1989-07-23T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#дэниел_рэдклифф"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#зои_салдана"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1978-06-19T00:00:00</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#зои_салдана"/>
-        <Literal>США</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#адрес"/>
@@ -2362,479 +2063,264 @@
         <Literal>Москва</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_дистрибьютора"/>
         <NamedIndividual IRI="#иностранка"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2000-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
-        <NamedIndividual IRI="#иностранка"/>
-        <Literal>виктория краснощенкова</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#иностранка"/>
-        <Literal>Россия</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#иэн_харт"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1964-11-08T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#иэн_харт"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_продюссер"/>
         <NamedIndividual IRI="#йен_брайс"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1956-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#йен_брайс"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#кира_найтли"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1985-03-26T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#кира_найтли"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#клифф_робертсон"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1923-09-09T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_смерти"/>
+        <DataProperty IRI="#дата_смерти_актера"/>
         <NamedIndividual IRI="#клифф_робертсон"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2011-09-10T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#клифф_робертсон"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_продюссер"/>
         <NamedIndividual IRI="#крейтон_беллингер"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1973-08-08T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#крейтон_беллингер"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
         <NamedIndividual IRI="#крис_коламбус"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1958-09-10T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#крис_коламбус"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#кристен_данст"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1982-04-30T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#кристен_данст"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_продюссер"/>
         <NamedIndividual IRI="#лора_зискин"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1950-03-03T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_смерти"/>
+        <DataProperty IRI="#дата_смерти_продюсера"/>
         <NamedIndividual IRI="#лора_зискин"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-12T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#лора_зискин"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_автора"/>
         <NamedIndividual IRI="#мария_вильгельм"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1942-12-11T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#мария_вильгельм"/>
-        <Literal>Польша</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
         <NamedIndividual IRI="#мартин_лэйн"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1969-05-17T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#мартин_лэйн"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_оператора"/>
         <NamedIndividual IRI="#мауро_фиоре"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1964-11-15T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#мауро_фиоре"/>
-        <Literal>Италия</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#мишель_родригес"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1978-07-12T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#мишель_родригес"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#мэгги_смит"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1934-12-28T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#мэгги_смит"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_продюссер"/>
         <NamedIndividual IRI="#нил_мориц"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1959-06-06T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#нил_мориц"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
         <NamedIndividual IRI="#нил_спайсэк"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1956-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#нил_спайсэк"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#орландо_блум"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1977-01-13T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#орландо_блум"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_копмьютерной_игры"/>
         <NamedIndividual IRI="#пираты_карибского_моря"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2003-06-30T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_игры"/>
         <NamedIndividual IRI="#пираты_карибского_моря"/>
         <Literal>открытый мир</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_игры"/>
         <NamedIndividual IRI="#пираты_карибского_моря"/>
         <Literal>ролевая игра</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
         <NamedIndividual IRI="#питер_хонесс"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1946-08-08T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#питер_хонесс"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#пол_уокер"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1973-09-12T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_смерти"/>
+        <DataProperty IRI="#дата_смерти_актера"/>
         <NamedIndividual IRI="#пол_уокер"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-30T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#пол_уокер"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
         <NamedIndividual IRI="#рик_картер"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1950-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#рик_картер"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
         <NamedIndividual IRI="#ричард_фрэнсис-брюс"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1948-12-10T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#ричард_фрэнсис-брюс"/>
-        <Literal>Австралия</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#ричард_харрис"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1930-10-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_смерти"/>
+        <DataProperty IRI="#дата_смерти_актера"/>
         <NamedIndividual IRI="#ричард_харрис"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2002-10-25T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#ричард_харрис"/>
-        <Literal>Ирландия</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
         <NamedIndividual IRI="#роб_коэн"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1949-03-12T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#роб_коэн"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#робби_колтрейн"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1950-03-30T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_смерти"/>
+        <DataProperty IRI="#дата_смерти_актера"/>
         <NamedIndividual IRI="#робби_колтрейн"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-14T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#робби_колтрейн"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
         <NamedIndividual IRI="#роберт_стромберг"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1969-12-31T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#роберт_стромберг"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#розмари_харрис"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1927-09-19T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#розмари_харрис"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#руперт_гринт"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1988-08-24T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#руперт_гринт"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_автора"/>
         <NamedIndividual IRI="#сазерленд"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1978-07-31T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#сазерленд"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#сигурни_уивер"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1949-10-08T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#сигурни_уивер"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_автора"/>
         <NamedIndividual IRI="#стив_дитко"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1027-12-02T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_смерти"/>
+        <DataProperty IRI="#дата_сметри_автора"/>
         <NamedIndividual IRI="#стив_дитко"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-29T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#стив_дитко"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
         <NamedIndividual IRI="#стив_кловис"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1960-03-18T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#стив_кловис"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#стивен_лэнг"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1952-07-11T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#стивен_лэнг"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
         <NamedIndividual IRI="#стивен_ривкин"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1955-05-05T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#стивен_ривкин"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_автора"/>
         <NamedIndividual IRI="#стэн_ли"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1922-12-28T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_смерти"/>
+        <DataProperty IRI="#дата_сметри_автора"/>
         <NamedIndividual IRI="#стэн_ли"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-12T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#стэн_ли"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
         <NamedIndividual IRI="#стюарт_битти"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1972-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#стюарт_битти"/>
-        <Literal>Австралия</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
         <NamedIndividual IRI="#стюарт_крэйг"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1942-04-14T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#стюарт_крэйг"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
         <NamedIndividual IRI="#сэм_рейми"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1956-10-23T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#сэм_рейми"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#сэм_уортингтон"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1967-08-02T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#сэм_уортингтон"/>
-        <Literal>Великобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
         <NamedIndividual IRI="#тед_эллиот"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1961-07-04T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#тед_эллиот"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_смерти_сценариста"/>
         <NamedIndividual IRI="#терри_росио"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1960-07-02T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#терри_росио"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#тоби_магуайр"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1975-06-27T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#тоби_магуайр"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#уиллем_дефо"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1955-07-22T00:00:00</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#уиллем_дефо"/>
-        <Literal>США</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#бюджет"/>
@@ -2852,14 +2338,9 @@
         <Literal>106 мин</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#форсаж"/>
         <Literal>боевик</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#форсаж"/>
-        <Literal>США</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#язык"/>
@@ -2867,24 +2348,19 @@
         <Literal>английский</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_книги"/>
         <NamedIndividual IRI="#форсаж_книга"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2007-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_книги"/>
         <NamedIndividual IRI="#форсаж_книга"/>
         <Literal>современная зарубежная проза</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_автора"/>
         <NamedIndividual IRI="#харрисон_колин"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1960-01-01T00:00:00</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#харрисон_колин"/>
-        <Literal>США</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#бюджет"/>
@@ -2902,29 +2378,24 @@
         <Literal>121 мин</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#человек-паук"/>
         <Literal>боевик</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#человек-паук"/>
         <Literal>драма</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#человек-паук"/>
         <Literal>научная фантастика</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#человек-паук"/>
         <Literal>супергероика</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#человек-паук"/>
-        <Literal>США</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#язык"/>
@@ -2932,122 +2403,97 @@
         <Literal>английский</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <NamedIndividual IRI="#эмма_уотсон"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1990-04-15T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#эмма_уотсон"/>
-        <Literal>Велиобритания</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
         <NamedIndividual IRI="#эрик_бергкуист"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1970-04-17T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#эрик_бергкуист"/>
-        <Literal>Швеция</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_оператора"/>
         <NamedIndividual IRI="#эриксон_кор"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1961-07-12T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#эриксон_кор"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_кинокомпании"/>
         <NamedIndividual IRI="#1492_Pictures"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1995-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#1492_Pictures"/>
         <Literal>крис коламбус</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#1492_Pictures"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_основания"/>
+        <DataProperty IRI="#дата_основания_кинокомпании"/>
         <NamedIndividual IRI="#20th_century_fox"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1935-05-31T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#20th_century_fox"/>
         <Literal>джозеф шенк</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#20th_century_fox"/>
         <Literal>дэррил занук</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <NamedIndividual IRI="#20th_century_fox"/>
         <Literal>уильям фокс</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#20th_century_fox"/>
-        <Literal>США</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_книги"/>
         <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2009-11-24T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_книги"/>
         <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
         <Literal>артбук</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_книги"/>
         <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
         <Literal>вселенные</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_книги"/>
         <NamedIndividual IRI="#Avatar:_A_Confidential_Report_on_the_Biological_and_Social_History_of_Pandora"/>
         <Literal>игровые миры</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_копмьютерной_игры"/>
         <NamedIndividual IRI="#Fast_&amp;_Furious_Crossroads"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-07T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_игры"/>
         <NamedIndividual IRI="#Fast_&amp;_Furious_Crossroads"/>
         <Literal>гонки</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_копмьютерной_игры"/>
         <NamedIndividual IRI="#James_Cameron’s_Avatar:_The_Game"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_игры"/>
         <NamedIndividual IRI="#James_Cameron’s_Avatar:_The_Game"/>
         <Literal>шутер от третьего лица</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_книги"/>
         <NamedIndividual IRI="#Пираты_Карибского_моря:_Приключения_Джека_Воробья"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2006-01-01T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_книги"/>
         <NamedIndividual IRI="#Пираты_Карибского_моря:_Приключения_Джека_Воробья"/>
         <Literal>роман для детей</Literal>
     </DataPropertyAssertion>
@@ -3067,29 +2513,24 @@
         <Literal>143 мин</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
         <Literal>боевик</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
         <Literal>комедия</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
         <Literal>приключения</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_фильма"/>
         <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
         <Literal>фэнтези</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#страна"/>
-        <NamedIndividual IRI="#Пираты_Карибского_моря:_Проклятие_Чёрной_жемчужины"/>
-        <Literal>США</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#язык"/>
@@ -3225,11 +2666,11 @@
         <Class IRI="#фильм"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_книги"/>
         <Class IRI="#книга"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_копмьютерной_игры"/>
         <Class IRI="#копмьютерная_игра"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -3253,144 +2694,108 @@
         <Class IRI="#фильм"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_основания_дистрибьютора"/>
+        <Class IRI="#дистрибьютор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания_издательства"/>
+        <Class IRI="#издательство"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания_кинокомпании"/>
+        <Class IRI="#кинокомпания"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
+        <Class IRI="#компания_разработчиков"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_рождения_автора"/>
         <Class IRI="#автор"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_актера"/>
         <Class IRI="#актер"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
         <Class IRI="#монтажер"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_оператора"/>
         <Class IRI="#оператор"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_продюссер"/>
         <Class IRI="#продюсер"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
         <Class IRI="#режиссер"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
         <Class IRI="#сценарист"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
         <Class IRI="#художник_постановщик"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#дата_смерти"/>
+        <DataProperty IRI="#дата_смерти_актера"/>
+        <Class IRI="#актер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_монтажера"/>
+        <Class IRI="#монтажер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_оператора"/>
+        <Class IRI="#оператор"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_продюсера"/>
+        <Class IRI="#продюсер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_режиссера"/>
+        <Class IRI="#режиссер"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_сценариста"/>
+        <Class IRI="#сценарист"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_смерти_художника_постановщика"/>
+        <Class IRI="#художник_постановщик"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#дата_сметри_автора"/>
         <Class IRI="#автор"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#дата_смерти"/>
-        <Class IRI="#актер"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#дата_смерти"/>
-        <Class IRI="#монтажер"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#дата_смерти"/>
-        <Class IRI="#оператор"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#дата_смерти"/>
-        <Class IRI="#продюсер"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#дата_смерти"/>
-        <Class IRI="#режиссер"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#дата_смерти"/>
-        <Class IRI="#сценарист"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#дата_смерти"/>
-        <Class IRI="#художник_постановщик"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#длительность"/>
         <Class IRI="#фильм"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#жанр"/>
-        <Class IRI="#книга"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_игры"/>
         <Class IRI="#копмьютерная_игра"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_книги"/>
+        <Class IRI="#книга"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#жанр_фильма"/>
         <Class IRI="#фильм"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
         <Class IRI="#кинокомпания"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
         <Class IRI="#компания_разработчиков"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#страна"/>
-        <Class IRI="#автор"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#страна"/>
-        <Class IRI="#актер"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#страна"/>
-        <Class IRI="#дистрибьютор"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#страна"/>
-        <Class IRI="#издательство"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#страна"/>
-        <Class IRI="#кинокомпания"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#страна"/>
-        <Class IRI="#компания_разработчиков"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#страна"/>
-        <Class IRI="#монтажер"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#страна"/>
-        <Class IRI="#оператор"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#страна"/>
-        <Class IRI="#продюсер"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#страна"/>
-        <Class IRI="#режиссер"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#страна"/>
-        <Class IRI="#сценарист"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#страна"/>
-        <Class IRI="#фильм"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#страна"/>
-        <Class IRI="#художник_постановщик"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#язык"/>
@@ -3409,7 +2814,11 @@
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#дата_выхода"/>
+        <DataProperty IRI="#дата_выхода_книги"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_выхода_копмьютерной_игры"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -3417,11 +2826,83 @@
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#дата_рождения"/>
+        <DataProperty IRI="#дата_основания_дистрибьютора"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#дата_смерти"/>
+        <DataProperty IRI="#дата_основания_издательства"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_основания_кинокомпании"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_основания_компании_разработчиков"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_автора"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_актера"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_монтажера"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_оператора"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_продюссер"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_режиссера"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_сценариста"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_рождения_художника_постановщика"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_актера"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_монтажера"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_оператора"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_продюсера"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_режиссера"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_сценариста"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_смерти_художника_постановщика"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#дата_сметри_автора"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -3429,15 +2910,23 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#жанр"/>
+        <DataProperty IRI="#жанр_игры"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#ключевая_фигура"/>
+        <DataProperty IRI="#жанр_книги"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#страна"/>
+        <DataProperty IRI="#жанр_фильма"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ключевая_фигура_кинокомпании"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ключевая_фигура_компании_разработчиков"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
